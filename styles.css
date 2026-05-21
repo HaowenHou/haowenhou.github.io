@@ -86,15 +86,16 @@ h2 {
 
 .profile {
   display: grid;
-  grid-template-columns: 168px 1fr;
-  gap: 34px;
+  grid-template-columns: 136px 1fr;
+  gap: 28px;
   align-items: start;
 }
 
-.avatar {
-  width: 168px;
-  height: 168px;
-  object-fit: cover;
+.profile-photo {
+  width: 136px;
+  height: auto;
+  display: block;
+  border: 1px solid #cfd9e3;
   background: var(--accent-soft);
 }
 
@@ -227,9 +228,8 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .avatar {
-    width: 138px;
-    height: 138px;
+  .profile-photo {
+    width: 128px;
   }
 
   .section-heading {
