@@ -165,6 +165,7 @@ h2 {
 .paper-thumb {
   display: block;
   align-self: start;
+  transform: translateY(4px);
   width: 250px;
   overflow: hidden;
   border: 1px solid #cfd9e3;
